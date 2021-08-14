@@ -6,7 +6,7 @@
 
 #navbarcont {
     background-image: url("../Assets/ones.png"), url("../Assets/zeros.png") !important;
-    background-size: 100%;
+    background-size: contain;
     background-position: left, left;
     background-repeat: repeat-y, repeat-y;
     /*/TODO - Want this in the margin of this containter....maybe*/

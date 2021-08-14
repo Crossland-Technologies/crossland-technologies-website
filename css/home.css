@@ -101,40 +101,6 @@
 }
 
 
-
-
-
-
-
-
-
-.Road-Map-Container{
-    height: 500px;
-    max-width: 1140px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-
-
-
-.left {
-    float: left;
-
-}
-
-.right {
-    float: right;
-}
-
-.desc-text {
-    width:70%;
-}
-
-.desc-img {
-    width: 24%;
-    height: 400px;
-}
-
 #allrobots{
     background-image: url("../Assets/3D_Conveyor.png"), linear-gradient(to bottom, white, dimgrey 50%, white);
     background-repeat: no-repeat;
@@ -165,100 +131,7 @@
     background-size: contain;
 }
 
-#starthere{
-    /*background-image: linear-gradient(to left, #003B6D, #003B6D 50%, transparent 90%);*/
-    /*background-image: url("../Assets/stock-photo-industrial-internet-of-things-disruption-technology-and-industry-concept-double-exposure-of-622847108.jpeg");*/
-    /*background-repeat: no-repeat;*/
-    /*background-attachment: local;*/
-    /*background-position: center;*/
-    /*background-size: contain;*/
-}
 
-.Road-Map {
-    width:  66%;
-    height: 500px;
-    background-image: url("../Assets/RoadMap.png");
-    background-repeat: no-repeat;
-    background-attachment: local;
-    background-position: center;
-    background-size: contain;
-
-    float: left;
-}
-
-.Road-Map-Description {
-    width: 33%;
-    float: right;
-}
-
-th {
-    text-align: center;
-}
-
-table {
-    margin: auto;
-}
-
-.flowy {
-    height: 1000vh;
-
-    margin-top: 10px;
-
-
-}
-
-.sticky {
-    position: sticky;
-    top: 2.5vh;
-    height: 10vh;
-}
-
-
-
-#logo{
-    background-image: url("../Assets/portrait_logo.png");
-    background-repeat: no-repeat;
-    background-attachment: local;
-    background-position: left top;
-    background-size: contain;
-}
-
-#gap {
-    height: 75vh;
-}
-
-#mini-gap{
-    height: 10vh;
-}
-
-#banner{
-    top: 0;
-    height:10vh;
-    background: url("../Assets/circuitbanner.png"), #FFFFFF;
-    background-repeat: no-repeat, no-repeat;
-    background-attachment: local, local;
-    background-position: right top, center;
-    background-size: 95%, cover;
-}
-
-#ones_zeros{
-
-    width: 5%;
-
-    background: url("../Assets/ones.png"), url("../Assets/zeros.png");
-    background-repeat: repeat-y, repeat-y;
-    background-attachment: local, local;
-    background-position: left top, left top;
-    background-size: 100%, 100%;
-}
-
-
-
-
-
-.flowy table div {
-    margin-top: 5vh;
-}
 
 
 footer {
