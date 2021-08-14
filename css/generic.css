@@ -1,0 +1,34 @@
+.nav-icon {
+    width: 20px;
+    height: 34px;
+    margin-right: 10px;
+}
+
+#navbarcont {
+    background-image: url("../Assets/ones.png"), url("../Assets/zeros.png") !important;
+    background-size: 100%;
+    background-position: left, left;
+    background-repeat: repeat-y, repeat-y;
+    /*/TODO - Want this in the margin of this containter....maybe*/
+}
+
+#about-header {
+    background-image: url("../Assets/crossland _ logo 01 black.png");
+    background-size: 100%;
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+}
+.content {
+    margin-top: 25px;
+    height: 40vh;
+}
+footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+footer p {
+    margin-bottom: .25rem;
+}
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }

@@ -26,6 +26,7 @@
 <!--    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">-->
 
     <!-- Custom styles for this template -->
+    <link href="css/generic.css" rel="stylesheet">
     <link href="css/home.css" rel="stylesheet">
 </head>
 
@@ -33,9 +34,9 @@
 
 <header>
     <div class="collapse bg-dark" id="navbarHeader">
-        <div class="container">
+        <div class="container" id="navbarcont">
             <div class="row">
-                <div class="col-sm-8 col-md-7 py-4">
+                <div class="col-sm-8 col-md-7 py-4" id="about-header">
                     <h4 class="text-white">About</h4>
                     <p class="text-muted">
                         Originally starting as design consultants we have extended our services to encompass the full automation life cycle. <br>
@@ -56,18 +57,37 @@
                     <ul class="list-unstyled">
                         <li><a href="#" class="text-white">Follow on Twitter</a></li>
                         <li><a href="#" class="text-white">Like on Facebook</a></li>
-                        <li><a href="#" class="text-white">Email me</a></li>
+                        <li><a href="#" class="text-white">Email Us</a></li>
                     </ul>
+
+                    <h4 class="text-white">Products & Services</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="concept.html" class="text-white">Concept</a></li>
+                        <li><a href="2DArt.html" class="text-white">2D Artwork</a></li>
+                        <li><a href="3DArt.html#" class="text-white">3D Artwork</a></li>
+                        <li><a href="design.html" class="text-white">Design</a></li>
+                        <li><a href="software.html" class="text-white">Software</a></li>
+                        <li><a href="hardware.html" class="text-white">Hardware</a></li>
+                        <li><a href="prototyping.html" class="text-white">Prototyping</a></li>
+                        <li><a href="fieldSupport.html" class="text-white">Field Support</a></li>
+                    </ul>
+
                 </div>
             </div>
         </div>
     </div>
     <div class="navbar navbar-dark bg-dark box-shadow">
         <div class="container d-flex justify-content-between">
-            <a href="#" class="navbar-brand d-flex align-items-center">
+            <a href="home.html" class="navbar-brand d-flex align-items-center">
 <!--                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>-->
                 <img src="Assets/portrait_logo.png" alt="Crossland Technologies" class="nav-icon" >
                 <strong>Crossland Technologies</strong>
+            </a>
+            <a href="newIdeas.html" class="navbar-brand d-flex align-items-center">
+                New Ideas
+            </a>
+            <a href="existing.html" class="navbar-brand d-flex align-items-center">
+                Existing
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -127,9 +147,12 @@
             <li data-target="#carouselExampleSlidesOnly" data-slide-to="1"></li>
             <li data-target="#carouselExampleSlidesOnly" data-slide-to="2"></li>
             <li data-target="#carouselExampleSlidesOnly" data-slide-to="3"></li>
+            <li data-target="#carouselExampleSlidesOnly" data-slide-to="4"></li>
         </ol>
         <div class="carousel-inner">
 
+
+            <!--            Slide 0 - Crossland Technologies-->
             <div class="carousel-item active" id="slide-0">
                 <h1 class="jumbotron-heading">Crossland Technologies</h1>
                 <p class="lead text-muted">
@@ -140,13 +163,13 @@
                     <br><br>
                 </p>
                 <p>
-                    <a href="#" class="btn btn-primary my-2">Get In Touch</a>
-                    <a href="#" class="btn btn-secondary my-2">Find Out More</a>
+                    <a href="newIdeas.html" class="btn btn-primary my-2">New Idea/Invention</a>
+                    <a href="existing.html" class="btn btn-secondary my-2">Existing Installations</a>
                 </p>
 
             </div>
 
-
+<!--            Slide 1 - It Ain't All Robots-->
             <div class="carousel-item" id="slide-1">
                 <h1>It Ain't All Robots</h1>
                 <div>
@@ -170,11 +193,40 @@
 
 <!--                <img class="d-block w-100" src="Assets/3D_Conveyor.png" alt="First slide">-->
             </div>
+
+<!--            Slide 2 - tarry Background (Will be like cover)-->
             <div class="carousel-item" id="slide-2">
 <!--                <img class="d-block w-100" src="Assets/StarryBackground.png" alt="Second slide">-->
             </div>
+
+<!--            Slide 3 - Potential Background/Slide-->
             <div class="carousel-item" id="slide-3">
 <!--                <img class="d-block w-100" src="Assets/3D_Conveyor.png" alt="Third slide">-->
+                <div id="idea">
+                    <h2>The Idea</h2>
+                    <p>It all starts with an idea or a concept that you or your organisation have developed.</p>
+                    <p>Maybe it's something completely new and you don't know where to start.</p>
+                    <p>Or maybe it's something you've done before and you know exactly what you need.</p>
+                    <p>Whether you are a budding inventor with a game changing idea, a project manager with a defined deliverable or
+                        an asset owner in need of optimisation; we can help.</p>
+                    <p>Whatever it is, if it needs automating, come and talk to us.</p>
+                </div>
+            </div>
+
+<!--            Slide 4 - What We Offer-->
+            <div class="carousel-item" id="slide-4">
+                <div class="left desc-text">
+                    <h1>What We Offer</h1>
+                    <p>We provide a variety of technical services that enable you to get from that initial idea, that light bulb moment,
+                        all the way through to a fully functioning system - "Bulb to Built".</p>
+                    <p>Each of our services are intended to maximise the efficiency and accuracy of which we are
+                        able to put your brain into one or more machines; figuratively speaking of course.</p>
+                    <p>You are the expert in your idea and we know that. Automated systems only deliver their
+                        full potential when your knowledge and experience is captured and implemented.</p>
+                    <p>This is where we come in. We have years of experience in working with clients to capture, distill and
+                        implement their requirements, knowledge and experience into automated systems.</p>
+
+                </div>
             </div>
         </div>
 
@@ -191,454 +243,46 @@
 
 
 
-    <div class="container content" id="allrobots">
+<!--    <div class="container content" id="allrobots">-->
 
-<!--        <div class="left desc-img" id="roboticarm"></div>-->
-        <div>
-            <h1>It Ain't All Robots</h1>
-            <p>The first thing most people imagine when they hear 'automation' is robots, or more specifically robotic arms;
-                typically installed on a factory floor, undertaking mass scale fabrication.</p>
-            <p>In reality, robots (including robotic arms) only account for a very small proportion of automated systems.</p>
-            <p>Automation is simply a means by which a task is performed with little to no human input.</p>
-            <p>Ultimately, any task can be automated. However, some tasks are more suited than others and the benefits
-                of automating a task should be weighed against the solution required.</p>
-            <p>Automation systems vary significantly in scale and complexity;</p>
-            <ul>
-                <li>from entirely software (e.g. image processing) to entirely hardware (e.g. hardwired circuits)</li>
-                <li>from small embedded systems to large Plant Control Systems</li>
-                <li>from a single task step to complete continuous autonomous operation.</li>
-            </ul>
-            <p>So whether its robotic arms or something else; we're here to help.</p>
+<!--&lt;!&ndash;        <div class="left desc-img" id="roboticarm"></div>&ndash;&gt;-->
+<!--        <div>-->
+<!--            <h1>It Ain't All Robots</h1>-->
+<!--            <p>The first thing most people imagine when they hear 'automation' is robots, or more specifically robotic arms;-->
+<!--                typically installed on a factory floor, undertaking mass scale fabrication.</p>-->
+<!--            <p>In reality, robots (including robotic arms) only account for a very small proportion of automated systems.</p>-->
+<!--            <p>Automation is simply a means by which a task is performed with little to no human input.</p>-->
+<!--            <p>Ultimately, any task can be automated. However, some tasks are more suited than others and the benefits-->
+<!--                of automating a task should be weighed against the solution required.</p>-->
+<!--            <p>Automation systems vary significantly in scale and complexity;</p>-->
+<!--            <ul>-->
+<!--                <li>from entirely software (e.g. image processing) to entirely hardware (e.g. hardwired circuits)</li>-->
+<!--                <li>from small embedded systems to large Plant Control Systems</li>-->
+<!--                <li>from a single task step to complete continuous autonomous operation.</li>-->
+<!--            </ul>-->
+<!--            <p>So whether its robotic arms or something else; we're here to help.</p>-->
 
-        </div>
-
-
-    </div>
-
-    <div class="container content" id="Offer">
-        <div class="left desc-text">
-            <h1>What We Offer</h1>
-            <p>We provide a variety of technical services that enable you to get from that initial idea, that light bulb moment,
-            all the way through to a fully functioning system - "Bulb to Built".</p>
-            <p>Each of our services are intended to maximise the efficiency and accuracy of which we are
-            able to put your brain into one or more machines; figuratively speaking of course.</p>
-            <p>You are the expert in your idea and we know that. Automated systems only deliver their
-                full potential when your knowledge and experience is captured and implemented.</p>
-            <p>This is where we come in. We have years of experience in working with clients to capture, distill and
-            implement their requirements, knowledge and experience into automated systems.</p>
-
-        </div>
-        <div class="right desc-img" id="chipbrain"></div>
-    </div>
+<!--        </div>-->
 
 
-    <div class="container content" id="starthere">
-        <div class="Road-Map"></div>
-        <div class="Road-Map-Description">
-            <h1>Start Here</h1>
-            <p>Every idea and project is unique and the path to success varies significantly.</p>
-            <p>Our flexible approach puts you in control to choose how and where we support your journey.</p>
-            <p>We are a one stop shop when it comes to automation and we provide services for the entire life cycle;
-            concept to creation and start up to shutdown.</p>
-            <p>Whether you have an idea that you'd like to develop, a project that needs to be completed or an existing
-            plant that needs support; we can help.</p>
-        </div>
-    </div>
+<!--    </div>-->
 
-    <div class="container flowy">
-        <div class="sticky" id="banner">  </div>
-        <div id="gap">  </div>
-        <div class="sticky" id="logo">  </div>
-        <table>
-            <tr>
-                <td id="ones_zeros"></td>
-                <td>
-                    <div id="mini-gap"></div>
-                    <div id="idea">
-                        <h2>The Idea</h2>
-                        <p>It all starts with an idea or a concept that you or your organisation have developed.</p>
-                        <p>Maybe it's something completely new and you don't know where to start.</p>
-                        <p>Or maybe it's something you've done before and you know exactly what you need.</p>
-                        <p>Whether you are a budding inventor with a game changing idea, a project manager with a defined deliverable or
-                        an asset owner in need of optimisation; we can help.</p>
-                        <p>Whatever it is, if it needs automating, come and talk to us.</p>
-                    </div>
+<!--    <div class="container content" id="Offer">-->
+<!--        <div class="left desc-text">-->
+<!--            <h1>What We Offer</h1>-->
+<!--            <p>We provide a variety of technical services that enable you to get from that initial idea, that light bulb moment,-->
+<!--            all the way through to a fully functioning system - "Bulb to Built".</p>-->
+<!--            <p>Each of our services are intended to maximise the efficiency and accuracy of which we are-->
+<!--            able to put your brain into one or more machines; figuratively speaking of course.</p>-->
+<!--            <p>You are the expert in your idea and we know that. Automated systems only deliver their-->
+<!--                full potential when your knowledge and experience is captured and implemented.</p>-->
+<!--            <p>This is where we come in. We have years of experience in working with clients to capture, distill and-->
+<!--            implement their requirements, knowledge and experience into automated systems.</p>-->
 
-                    <div id="concept">
-                        <h2>Brain To Paper</h2>
-                        <p>The first step is to generate a conceptual design.</p>
-                        <p>A conceptual design is a high level description of your idea and how it works; we want to get what's in your brain on to paper.</p>
-                        <p>The scope and size of the conceptual design depends upon;
-                        <ul>
-                            <li>the size of your organisation,</li>
-                            <li>the complexity of your idea.</li>
-                            <li>the type of industry.</li>
-                        </ul>
-                        </p>
-                        <p>Conceptual designs are a crucial first step as they allow all stakeholders to operate from a common point.</p>
-                        <p>For entrepreneurs and inventors conceptual deigns can provide credibility and legitimacy with investors.</p>
-                        <p>For project managers conceptual designs provide re-assurance to stakeholders.</p>
-                        <p>Our experience shows that getting the conceptual design right at the start is crucial for success.</p>
-                        <p>Our conceptual design service consists:
-                            <ol>
-                                <li>A kick-off meeting (face-to-face or video call) where we will discuss your idea.</li>
-                                <li>We will send you your tailored conceptual design questionnaire.</li>
-                                <li>Once the questionnaire is returned, we will produce your conceptual design.</li>
-                                <li>You then get chance to review your new conceptual design.</li>
-                                <li>We will update your design with any comments you may have.</li>
-                                <li>With your conceptual design you're ready to approach the world to make your idea a reality.</li>
-                            </ol>
-                        </p>
-                    </div>
+<!--        </div>-->
+<!--        <div class="right desc-img" id="chipbrain"></div>-->
+<!--    </div>-->
 
-                    <div id="3D-artwork">
-                        <h2>3D Artwork</h2>
-                        <p>The famous addage 'a picture paints a thousand words' is true and especially so for 3D artwork.</p>
-                        <p>We produce 3D imagery, animations and videos to help you clearly and concisely convey your idea.</p>
-                        <p>We highly recommend you to use 3D artwork supports your conceptual design.</p>
-                        <p>
-                            How it works (products / ideas / inventions):
-                            <ol>
-                        <li>The first step is to model your product or idea in 3D, this means getting the physical dimensions correct.</li>
-
-                        <li>Once you approve the model dimensions we can work on appearance; get the colours and textures correct.
-                            <ul>
-                                <li>How far you go with the aesthetics of the model is personal preference, our guidance is to remember the purpose of the 3D artwork.</li>
-                                <li>If the intention is to give a sense of scale or function only then aesthetics are not as important.</li>
-                                <li>If the intention is for the model to be used in a product video then aesthetics are extremely important.</li>
-                            </ul>
-
-                        </li>
-                        <li>Once the physical dimensions are correct, should you wish, you can also have your model 3D printed (full size or small scale).</li>
-                        <li>
-                            With the model dimensionally and aesthetically correct we can then use the model to produce the artwork you require:
-                            <ul>
-                                <li>Static images and/or diagrams (typically used to support conceptual design.)</li>
-                                <li>Product placement images, where we place your 3D model into real photographs. (Typically used for investors & stakeholders, but
-                                also give a useful sense of scale.)</li>
-                                <li>Animations, demonstrating how your idea works or is assembled. (Especially useful if the workings/assembly are not immediately apparent.) </li>
-                                <li>Product Video, advertising your idea. (Typically used for websites and attracting customers).</li>
-                            </ul>
-                        </li>
-                        <li>As well as individual discrete items we can also create scenes and background objects:
-                        <ul>
-                            <li>Static background images again can be used to give a good sense of scale.</li>
-                            <li>Live construction plans -  when updated regularly the 3D scene can be used to determine implementation routes and installation orders
-                                (e.g. process pipework and ducting).</li>
-                            <li>Scene animations can convey construction order and/or fly by views.</li>
-                            <li>Walkthrough videos can be created to show exactly how the final idea or concept will be implemented.</li>
-                        </ul>
-                        </li>
-
-                    </ol>
-                        </p>
-
-                        <p>3D artwork not only gives a sense of legitimacy that does not come from 2D drawings but they can also be truly efficient means of
-                            conveying your idea to others.</p>
-                        <p>Whether you want to wow your investors, teach new staff, support a design review or advertise; our 3D artwork services are here to help. </p>
-                    </div>
-
-                    <div id="2D-artwork">
-                        <h2>2D Artwork</h2>
-                        <p>It doesn't matter how well written a piece of text is, sometimes, it's just easier to draw it. A good drawing will
-                            capture the attention of your audience and compel them to delve deeper into the detail.</p>
-                        <p>Our 2D artwork services are typically used to support conceptual design where clear, concise and accurate
-                        representations of your idea are imperative.</p>
-                        <p>Examples of our 2D artwork include:</p>
-                        <ul>
-                            <li>Process Flow Diagrams
-                                <ul>
-                                    <li>Showing how your process or idea will work.</li>
-                                    <li>Showing how your process or idea will be assembled or constructed.</li>
-                                    <li>Showing the user journey for your process or idea. </li>
-                                </ul>
-                            </li>
-                            <li>User Interface Mock Ups</li>
-                            <li>Schematic Representations
-                            <ul>
-                                <li>Functional Block Diagrams</li>
-                                <li>System Integration Plans</li>
-                                <li>Layouts</li>
-                            </ul>
-                            </li>
-                        </ul>
-                        <p>Our 2D artwork is intended to be used to support understanding and discussion and is not intended to be used as detailed design documentation.
-                        We offer a number of design services that produce this information.</p>
-                    </div>
-
-                    <div id="design">
-                        <h2>Technical Design</h2>
-                        <p>Our technical design service provdes you with the expertise you need to get your system automated, from consultation to documentation.
-                            As with the conceptual design, the size of your design package will depend greatly upon the size, scale and
-                            complexity of your idea as well as the industry within which you operate.</p>
-                        <p>Unlike the conceptual design which is concerned with explaining the idea, our technical design services are concerned with implementation
-                        - the hows and the whats:</p>
-                        <ul>
-                            <li>How will the item be constructed.</li>
-                            <li>How will the system and sub systems perform their function.</li>
-                            <li>How will the item be operated.</li>
-                            <li>How will the system respond to failure.</li>
-                            <li>What materials are required.</li>
-                            <li>What safety systems are required.</li>
-                            <li>What is acceptable (pass) what is not acceptable (fail).</li>
-                        </ul>
-                        <p>We have years of experience of delivering design packages for ideas and projects ranging from thousands of pounds to
-                            millions of pounds. We have experience working within highly regulated sectors and undertaken all aspects within the design life cycle. </p>
-
-                        <p>A selection of typical design package deliverables are shown below, the list is by no means exhaustive:</p>
-                        <table>
-                            <tr>
-                                <th>Documents</th>
-                                <th>Drawings*</th>
-                                <th>Calculations</th>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <ul>
-                                        <li>Operating Manuals</li>
-                                        <li>Process Descriptions</li>
-                                        <li>Hazard & Operability Studies</li>
-                                        <li>Feasibility Studies</li>
-                                        <li>Optioneering Studies</li>
-                                        <li>Requirement Specifications</li>
-                                        <li>Software Specifications</li>
-                                        <li>Testing Specifications</li>
-                                    </ul>
-                                </td>
-
-                                <td>
-                                    <ul>
-                                        <li>Piping & Instrumentation Drawings (P&IDs)</li>
-                                        <li>Process Flow Diagrams</li>
-                                        <li>Network Overviews</li>
-                                        <li>Electrical Schematics</li>
-                                        <li>PCB Designs</li>
-                                        <li>Mechanical Drawings</li>
-                                        <li>Single Line Diagrams</li>
-                                        <li>Boolean Logic</li>
-                                    </ul>
-                                </td>
-
-                                <td>
-                                    <ul>
-                                        <li>Process Modelling / Simulation</li>
-                                        <li>Failure Rate Determination</li>
-                                        <li>Availability Calculations</li>
-                                        <li>Power Requirements</li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                    </ul>
-                                </td>
-                            </tr>
-                        </table>
-
-                        <p>*All of our 2D drawings are produced in EPLAN as standard.</p>
-                        <p>If you are new to automation, we can advise you on the items you are likely to need.</p>
-                        <p>If your organisation has different design deliverables and processes we are happy to
-                        accommodate these too.</p>
-                        <p>Ultimately your design package needs enough information and detail to allow the idea / process to be built/constructed.</p>
-                    </div>
-
-                    <div id="Software">
-                        <h2>Software Development</h2>
-                        <p>We have experience in developing software for a whole host of different platforms and technologies and hence we offer
-                        a completely hardware inspecific software development service.</p>
-                        <p>Our software development service takes your software specification (or similar) and develops the application on whatever
-                        platform you choose. With all software development; we undertake rigorous internal testing as standard, to ensure the functionality
-                        meets your specification. We also support customer acceptance testing in a variety of formats to suit you and your
-                        organisation.</p>
-                        <p>We have worked on projects using the following platforms and technologies:</p>
-                        <table>
-                            <tr>
-                                <th>Hardware / Platform</th>
-                                <th>IDEs / Packages</th>
-                                <th>Languages</th>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <ul>
-                                        <li>Programmable Logic Controllers</li>
-                                        <li>Embedded Micro-Controllers</li>
-                                        <li>National Instruments' C-RIO</li>
-                                        <li>Raspberry Pi</li>
-                                        <li>Arduino</li>
-                                        <li>Cloud Computing</li>
-                                    </ul>
-                                </td>
-                                <td>
-                                    <ul>
-                                        <li>GX Works</li>
-                                        <li>Citect SCADA</li>
-                                        <li>LabView</li>
-                                        <li>Arduino IDE</li>
-                                        <li>LiteIDE</li>
-                                        <li>PHPStorm</li>
-                                        <li>Context</li>
-                                        <li>Visual Studio</li>
-                                    </ul>
-                                </td>
-                                <td>
-                                    <ul>
-                                        <li>Ladder Logic</li>
-                                        <li>Sequential Flow Charts</li>
-                                        <li>Functional Block Diagrams</li>
-                                        <li>C</li>
-                                        <li>Java</li>
-                                        <li>GoLang</li>
-                                        <li>PHP</li>
-                                    </ul>
-                                </td>
-
-                            </tr>
-                        </table>
-                        <p>Hopefully from the examples above you can see our approach is to do what you need doing, instead of limiting you to what
-                            we can do. If your preferred technology isn't listed; we are always happy to pick up new skills - just get in touch.</p>
-
-                        <p>If you don't know which platform you want, don't worry, we can advise you based on our experience. A lot of the
-                        decision comes down to preference and your organisation's history. Other factors include:</p>
-                        <ul>
-                            <li>Turn around time - how fast do you need a prototype.</li>
-                            <li>Complexity</li>
-                            <li>Speed of response</li>
-                            <li>Future proofing</li>
-                            <li>Backwards compatibility</li>
-                        </ul>
-                        <p>There's nothing quite like seeing the program function for the first time, that first glimmer of life for your idea.</p>
-                        <p>Our rigorous approach to programming produces robust applications fast. Get in touch to see what we can do for you.</p>
-                    </div>
-
-                    <div id="Hardware">
-                        <h2>Hardware Production/Construction</h2>
-                        <p>Our hardware services are split into three areas:</p>
-                        <table>
-                            <tr>
-                                <th>Electrical</th>
-                                <th>Electro-Mechanical</th>
-                                <th>Mechanical</th>
-                            </tr>
-                            <tr>
-                                <td>
-                                    Purely electrical based work,
-                                    <ul>
-                                        <li>PCB Fabrication</li>
-                                        <li>Electrical Panel Assembly</li>
-                                        <li>Electrical Installation</li>
-                                        <li>Electrical Testing</li>
-                                    </ul>
-                                </td>
-
-                                <td>
-                                    Combining mechanical and electrical components,
-                                    <ul>
-                                        <li>Field wiring and equipment connections</li>
-                                        <li>System Integration</li>
-                                        <li>Prototype Build</li>
-                                        <li>Functional Testing</li>
-                                    </ul>
-                                </td>
-
-                                <td>
-                                    Purely mechanical based work,
-                                    <ul>
-                                        <li>Fabrication</li>
-                                        <li>System & sub-system assembly</li>
-                                        <li></li>
-                                    </ul>
-                                </td>
-                            </tr>
-                        </table>
-                        <p>Our in-house hardware capabilities are limited, but we do have excellent contacts that we rely on to outsource
-                            aspects which lie outside our capabilities.</p>
-                           <p> Where your idea exceeds our in-house capabilities, we are happy to put you in touch with our contacts or outsource
-                            this on your behalf.</p>
-                        <p>We strive to offer a turn-key service and under the majority of circumstances we will be able to develop your idea
-                        to prototype.</p>
-                        <p>Our hardware services are flexible and can be co-ordinated with your needs. Examples of our hardware services include:</p>
-                        <ul>
-                            <li>Embedded Systems / Small Scale (<1m2)
-                                <ul>
-                                    <li>Where your idea can be package into a volume <1m2</li>
-                                    <li>We can produce the PCBs and/or electrical panel(s).</li>
-                                    <li>We can fabricate (in-house or outsource) the mechanical aspects.</li>
-                                    <li>We can assemble your electrical and mechanical components at our premises.</li>
-                                    <li>We can undertake functional testing at our premises.</li>
-                                    <li>We can ship your fully functioning prototype to you.</li>
-                                </ul>
-                            </li>
-                            <br>
-
-                            <li>Package Systems / Medium Scale (1 - 10m2)
-                                <ul>
-                                    <li>Where your idea is typically packaged on to a frame/skid that fits in an ISO container.</li>
-                                    <li>We can produce the PCBs and/or electrical panel(s).</li>
-                                    <li>We can accept your frame/skid at our premises.</li>
-                                    <li>We can install your electrical components at our premises.</li>
-                                    <li>We can install any remaining mechanical components at our premises.</li>
-                                    <li>We can undertake functional testing at our premises.</li>
-                                    <li>We can ship your fully functioning package to you.</li>
-                                </ul>
-                            </li>
-                            <br>
-
-                            <li>Plant Control Systems / Large Scale(>10m2)
-                                <ul>
-                                    <li>Where your idea is typically immovable.</li>
-                                    <li>We can produce the PCBs and/or electrical panel(s).</li>
-                                    <li>We can ship the electrical components to your premises.</li>
-                                    <li>We can install your electrical components at your premises.</li>
-                                    <li>We can undertake functional testing at your premises.</li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <p>Get in touch to discuss which scenario works best for you.</p>
-                    </div>
-
-                    <div id="Prototyping">
-                        <h2>Prototyping</h2>
-                        <p>We find that a lot of our first time inventors struggle with space for building, testing and developing their ideas. </p>
-                        <p>With our prototyping service we allow you to rent space at our premises. This allows your full prototype to be
-                        developed.</p>
-                        <p>Obviously we have a finite amount of space but we will try to accommodate your idea where feasible.</p>
-                        <p>Find out if we can help you.</p>
-                    </div>
-
-                    <div id="Collaboration">
-                        <h2>Collaboration</h2>
-                        <p>Automation is inherently multidisciplinary and relies on close collaboration to succeed.</p>
-                        <p>Whether that's working with you, your organisation and your suppliers or us introducing you to our contacts -
-                            we've got you covered.</p>
-<!--                        <p>Ultimately the tail (us) must be wagged by the dog (you), not the other way around.</p>-->
-<!--                        <p>Automation is not a chicken and egg scenario, the automation system exists to perform tasks and actions,-->
-<!--                            which when combined implement your process. Without a process there is no automation. </p>-->
-                        <p>We have been involved projects of all sizes and we are proficient at interfacing
-                        and co-ordinating with other disciplines.</p>
-
-                    </div>
-
-                    <div id="Commissioning">
-                        <h2>Commissioning & Start Up</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum quis justo id rhoncus. Aenean venenatis efficitur augue blandit vehicula. Nulla ut feugiat neque. Fusce eget eros dui. Quisque nulla massa, hendrerit vitae ex in, mollis luctus lectus. Aenean porttitor libero id lectus pellentesque semper. Fusce posuere lacus non interdum egestas. Aliquam erat volutpat. Fusce ut porta nisl, in mattis dolor. Curabitur in erat euismod, cursus lacus non, tempor metus.</p>
-                    </div>
-
-                    <div id="Debugging">
-                        <h2>Debugging & Fault Finding</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum quis justo id rhoncus. Aenean venenatis efficitur augue blandit vehicula. Nulla ut feugiat neque. Fusce eget eros dui. Quisque nulla massa, hendrerit vitae ex in, mollis luctus lectus. Aenean porttitor libero id lectus pellentesque semper. Fusce posuere lacus non interdum egestas. Aliquam erat volutpat. Fusce ut porta nisl, in mattis dolor. Curabitur in erat euismod, cursus lacus non, tempor metus.</p>
-                    </div>
-
-                    <div id="Optimisation & Modifications">
-                        <h2>Optimisation & Modifications</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum quis justo id rhoncus. Aenean venenatis efficitur augue blandit vehicula. Nulla ut feugiat neque. Fusce eget eros dui. Quisque nulla massa, hendrerit vitae ex in, mollis luctus lectus. Aenean porttitor libero id lectus pellentesque semper. Fusce posuere lacus non interdum egestas. Aliquam erat volutpat. Fusce ut porta nisl, in mattis dolor. Curabitur in erat euismod, cursus lacus non, tempor metus.</p>
-                    </div>
-
-                </td>
-            </tr>
-        </table>
-
-
-
-    </div>
 
     <div class="album py-5 bg-light">
         <div class="container">
@@ -646,13 +290,12 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                        <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Concept" alt="Card image cap">
                         <div class="card-body">
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text">Ready to get real? Make that first step and develop your idea into a tangible concept with us today.</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    <a href="concept.html" class="btn btn-primary my-2">Find Out More</a>
                                 </div>
                                 <small class="text-muted">9 mins</small>
                             </div>
@@ -661,13 +304,12 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                        <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=2D Artwork" alt="Card image cap">
                         <div class="card-body">
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    <a href="2DArt.html" class="btn btn-primary my-2">Find Out More</a>
                                 </div>
                                 <small class="text-muted">9 mins</small>
                             </div>
@@ -676,59 +318,12 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                        <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=3D Artwork" alt="Card image cap">
                         <div class="card-body">
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text">If pictures say a thousand words then 3D images must say at least three thousand words and animations even more! </p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                </div>
-                                <small class="text-muted">9 mins</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                </div>
-                                <small class="text-muted">9 mins</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                </div>
-                                <small class="text-muted">9 mins</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    <a href="3DArt.html" class="btn btn-primary my-2">Find Out More</a>
                                 </div>
                                 <small class="text-muted">9 mins</small>
                             </div>
@@ -738,13 +333,12 @@
 
                 <div class="col-md-4">
                     <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                        <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Design" alt="Card image cap">
                         <div class="card-body">
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    <a href="design.html" class="btn btn-primary my-2">Find Out More</a>
                                 </div>
                                 <small class="text-muted">9 mins</small>
                             </div>
@@ -753,13 +347,12 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                        <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Software" alt="Card image cap">
                         <div class="card-body">
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    <a href="software.html" class="btn btn-primary my-2">Find Out More</a>
                                 </div>
                                 <small class="text-muted">9 mins</small>
                             </div>
@@ -768,13 +361,55 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                        <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Hardware" alt="Card image cap">
                         <div class="card-body">
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    <a href="hardware.html" class="btn btn-primary my-2">Find Out More</a>
+                                </div>
+                                <small class="text-muted">9 mins</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Prototyping" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="prototyping.html" class="btn btn-primary my-2">Find Out More</a>
+                                </div>
+                                <small class="text-muted">9 mins</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Field Support" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="fieldSupport.html" class="btn btn-primary my-2">Find Out More</a>
+                                </div>
+                                <small class="text-muted">9 mins</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Contact Us" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="#" class="btn btn-primary my-2">Find Out More</a>
                                 </div>
                                 <small class="text-muted">9 mins</small>
                             </div>

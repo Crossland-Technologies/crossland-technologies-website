@@ -1,0 +1,35 @@
+
+.Road-Map-Container{
+    height: 500px;
+    max-width: 1140px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+#starthere{
+    /*background-image: linear-gradient(to left, #003B6D, #003B6D 50%, transparent 90%);*/
+    /*background-image: url("../Assets/stock-photo-industrial-internet-of-things-disruption-technology-and-industry-concept-double-exposure-of-622847108.jpeg");*/
+    /*background-repeat: no-repeat;*/
+    /*background-attachment: local;*/
+    /*background-position: center;*/
+    /*background-size: contain;*/
+}
+
+.Road-Map {
+    width:  66%;
+    height: 500px;
+    background-image: url("../Assets/RoadMap.png");
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: center;
+    background-size: contain;
+
+    float: left;
+}
+
+.Road-Map-Description {
+    width: 33%;
+    float: right;
+}
+
