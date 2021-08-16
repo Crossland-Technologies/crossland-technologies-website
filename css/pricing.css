@@ -1,0 +1,86 @@
+html {
+    font-size: 14px;
+}
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.container {
+    max-width: 960px;
+}
+
+.pricing-header {
+    max-width: 700px;
+}
+
+.card-deck .card {
+    min-width: 220px;
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+
+#price-examples {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.first-col {
+    width: 30%;
+    text-align: left;
+}
+
+.sec-col{
+    width: 10%
+}
+
+#price-examples th {
+    background: lightgray;
+}
+
+th, td {
+    text-align: center;
+    padding: 2%
+}
+
+.expandy-button {
+    border-radius: 50%;
+    background: #0d6efd;
+    width: 30px;
+    height:30px;
+    color: white;
+    border: none;
+}
+
+.expandy-button:hover{
+    border: 2px solid #0d6efd;
+    color: #0d6efd;
+    background: none;
+}
+
+.collapsable-row p {
+    text-align: left;
+
+}
+
+.collapsable-row {
+    border-style: none solid solid solid;
+    border-radius: 0px 0px 10px 100px;
+    /*TODO - border radius requires fiddling with*/
+}
+.collapsable-midrow {
+    border-style: none solid none solid;
+    border-radius: 0px 0px 0px 0px;
+    /*TODO - border radius requires fiddling with*/
+}
+tr {
+    border-style: solid solid none solid;
+    border-radius: 10px 10px 0px 0px;
+    margin-top:2%;
+}
+
