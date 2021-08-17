@@ -25,18 +25,40 @@ html {
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
 
 
+
+#consultation-table{
+    width: 100%;
+    table-layout: fixed;
+    border-style: solid;
+}
+#consultation-text {
+    width: 50%;
+}
+#consultation-image {
+    width: 50%;
+}
+#logo{
+    height: 20vh;
+    background-image: url("../Assets/portrait_logo.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain;
+}
+
+
+
 #price-examples {
     width: 100%;
     table-layout: fixed;
 }
 
 .first-col {
-    width: 30%;
+    width: 35%;
     text-align: left;
 }
 
 .sec-col{
-    width: 10%
+    width: 5%
 }
 
 #price-examples th {
