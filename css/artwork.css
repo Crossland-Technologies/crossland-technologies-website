@@ -60,6 +60,30 @@ li {
     text-align: left;
 }
 
+.prod{
+    height: 40vh;
+}
+#roughmodel {
+    background-image: url("../Assets/roughmodels(1).png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center 70%;
+}
+
+#dimensioned {
+    background-image: url("../Assets/Dimensions.png"), url("../Assets/dimensionsmodel.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center 70%;
+}
+
+#exploded {
+    background-image: url("../Assets/exploded.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center 70%;
+}
+
 .product-device {
     position: absolute;
     right: 10%;
