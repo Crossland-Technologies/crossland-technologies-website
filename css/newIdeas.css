@@ -8,12 +8,15 @@
 
 
 #starthere{
-    /*background-image: linear-gradient(to left, #003B6D, #003B6D 50%, transparent 90%);*/
+    /*background-image: linear-gradient(to bottom, #003B6D, #003B6D 50%, transparent 90%);*/
+    background-image: ;
     /*background-image: url("../Assets/stock-photo-industrial-internet-of-things-disruption-technology-and-industry-concept-double-exposure-of-622847108.jpeg");*/
-    /*background-repeat: no-repeat;*/
-    /*background-attachment: local;*/
-    /*background-position: center;*/
-    /*background-size: contain;*/
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: center;
+    background-size: contain;
+
+    height: 400vh;
 }
 
 .Road-Map {
