@@ -9,7 +9,7 @@
 
 #starthere{
     /*background-image: linear-gradient(to bottom, #003B6D, #003B6D 50%, transparent 90%);*/
-    background-image: ;
+    background-image: repeating-linear-gradient(to bottom, white, blue 10%, white 20%, green 30%, white 40%, red 50%, white 60%);
     /*background-image: url("../Assets/stock-photo-industrial-internet-of-things-disruption-technology-and-industry-concept-double-exposure-of-622847108.jpeg");*/
     background-repeat: no-repeat;
     background-attachment: local;
@@ -36,3 +36,50 @@
     float: right;
 }
 
+div {
+    border: solid;
+
+}
+
+.colly {
+    display: inline-block;
+    overflow: hidden;
+    margin: auto;
+}
+.quarter {
+    width: 24.5%;
+}
+.third {
+    width: 33%;
+}
+.half {
+    width: 49%;
+}
+.myrow {
+    height: 30vh;
+    width: 100%;
+    display: flex;
+}
+
+.icony {
+    width: 10vw;
+    height: 20vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 5vw;
+    margin: auto;
+}
+
+#lightbulb {
+    background-image: url("../Assets/Lightbulb.png");
+}
+
+#concept {
+    background-image: url("../Assets/concept.png");
+}
+#collaborate {
+    background-image: url("../Assets/Handshake.png");
+}
+#design{
+    background-image: url("../Assets/Design.png");
+}
