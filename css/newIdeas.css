@@ -16,7 +16,7 @@
     background-position: center;
     background-size: contain;
 
-    height: 400vh;
+    /*height: 400vh;*/
 }
 
 .Road-Map {
@@ -30,15 +30,17 @@
 
     float: left;
 }
-
 .Road-Map-Description {
     width: 33%;
     float: right;
 }
 
-div {
-    border: solid;
+/*div {*/
+/*    border: solid;*/
+/*}*/
 
+a:hover{
+    /*TODO - needs to be some sort of prompt to show that the images are clickable and more information is available.*/
 }
 
 .colly {
@@ -60,6 +62,10 @@ div {
     width: 100%;
     display: flex;
 }
+.below {
+    text-align: center;
+}
+
 
 .icony {
     width: 10vw;
@@ -82,4 +88,31 @@ div {
 }
 #design{
     background-image: url("../Assets/Design.png");
+}
+#software{
+    background-image: url("../Assets/Develop.png");
+}
+#electrical{
+    background-image: url("../Assets/lightning.png");
+}
+#mechanical{
+    background-image: url("../Assets/Toolbag.png");
+}
+#assemble{
+    background-image: url("../Assets/assemble.png");
+}
+#full-size{
+    background-image: url("../Assets/full-size.png");
+}
+#prototype{
+    background-image: url("../Assets/prototype.png");
+}
+#launch{
+    background-image: url("../Assets/Rocket.png");
+}
+#debug {
+    background-image: url("../Assets/Debug.png");
+}
+#optimise{
+    background-image: url("../Assets/Optimise.png");
 }
