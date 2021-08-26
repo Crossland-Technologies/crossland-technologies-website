@@ -1,0 +1,56 @@
+#purp {
+    height: 50vh;
+
+}
+
+.thirdy {
+    width:33%;
+    padding: 2%;
+
+    display: inline-block;
+    vertical-align: top;
+
+    text-align: center;
+
+    border-radius: 5%;
+    height: 100%;
+
+    overflow: hidden;
+}
+
+.imgy {
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-color: white;
+    height: 20vh;
+    width: 20vh;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 2vh;
+}
+
+h3 {
+    font-weight: bolder;
+}
+
+#what-bg {
+    background-color: palegreen;
+}
+#why-bg {
+    background-color: paleturquoise;
+}
+#how-bg {
+    background-color: palevioletred;
+}
+
+#what{
+    background-image: url("../Assets/concept-icon.png");
+}
+#why{
+    background-image: url("../Assets/collaborate-icon.png");
+}
+#how{
+    background-image: url("../Assets/pound-icon-gold.jpeg");
+}
