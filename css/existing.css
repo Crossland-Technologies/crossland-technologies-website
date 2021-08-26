@@ -1,0 +1,75 @@
+#existing {
+    background-image: url("../Assets/factory-icon.png"), linear-gradient(to bottom, white, purple);
+    background-position: center, center;
+    background-size: 25%, cover;
+    background-repeat: no-repeat, no-repeat;
+
+    /*background-color: pink;*/
+    height: 75vh;
+    width: 100%;
+
+    position: relative;
+}
+
+.service-box {
+    /*height: 20vh;*/
+    /*background: #0d6efd;*/
+    width: 30%;
+    position: absolute;
+    /*padding: 5%;*/
+
+    /*border-style: solid;*/
+    /*border-color: #06357a;*/
+    /*border-radius: 5%;*/
+
+
+}
+.service-img{
+    height: 15vh;
+    width: 15vh;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+
+    border-radius: 50%;
+    margin: auto;
+}
+
+.service-img:hover{
+    border:solid;
+}
+
+h3 {
+    text-align: center;
+}
+
+#upgrades{
+    top: 5vh;
+}
+#upgrd{
+    background-image: url("../Assets/Design.png");
+    background-color: blue;
+}
+
+#debugging{
+    top:5vh;
+    right:5%;
+}
+#dbg{
+    background-image: url("../Assets/Debug.png");
+    background-color: red;
+}
+
+#optimisation{
+    top: 50vh;
+    left: 35%;
+}
+#opt{
+    background-image: url("../Assets/Develop.png");
+    background-color: green;
+}
+
+
+
+

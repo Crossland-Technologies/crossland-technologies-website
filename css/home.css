@@ -139,7 +139,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    position: static;
+    /*position: static;*/
     position: relative;
 }
 
