@@ -12,10 +12,12 @@
 
     text-align: center;
 
-    border-radius: 5%;
+    border-radius: 20px;
     height: 100%;
 
     overflow: hidden;
+
+    position: relative;
 }
 
 .imgy {
@@ -54,3 +56,72 @@ h3 {
 #how{
     background-image: url("../Assets/pound-icon-gold.jpeg");
 }
+
+.sale {
+    background-color: red;
+
+    transform: rotate(45deg);
+    position: absolute;
+    height: 20vh;
+    width: 40vh;
+    right: -15vh;
+    top: -5vh;
+    overflow: hidden;
+
+    color: white;
+    font-weight: bold;
+    font-size: 4vh;
+
+}
+#sale {
+    padding-top: 10vh;
+}
+
+
+
+
+#bundle-banner {
+    border: solid;
+    border-color: slategrey;
+    border-radius: 20px;
+    overflow: hidden;
+
+    background-image: url("../Assets/crossland _ logo 01 black.png");
+    background-position: 60% 10%;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+#bundle-content{
+    height: 20vh;
+    width: 80%;
+    display: inline-block;
+    padding: 1%;
+}
+#bundle-price {
+    height: 20vh;
+    width: 19%;
+    background-color: lightgrey;
+    display: inline-block;
+    float: right;
+    border-left: solid;
+    border-color: slategrey;
+    padding: 1%;
+    text-align: center;
+    padding-top: 7vh;
+}
+
+
+td {
+    border: 1px solid black;
+}
+.outer {
+    width:30%;
+}
+.inner {
+    width: 40%;
+    background-image: url("../Assets/chip.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
