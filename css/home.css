@@ -132,54 +132,7 @@
 }
 
 
-#large {
-    height: 100vh;
-    background: #f8f9fa;
-    background-image: url("../Assets/portrait_logo.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    /*position: static;*/
-    position: relative;
-}
 
-.service-box {
-    /*height: 20vh;*/
-    /*background: #0d6efd;*/
-    width: 30%;
-    position: absolute;
-    /*padding: 5%;*/
-
-    border-style: solid;
-    border-color: #06357a;
-    border-radius: 5%;
-}
-
-.service-box p {
-    font-size: 1.5vw;
-}
-
-#software {
-    top: 5vh;
-}
-
-#artwork {
-    top: 40vh;
-}
-
-#hardware {
-    bottom: 5vh;
-}
-
-#concept {
-    top: 20vh;
-    right: 0;
-}
-
-#design {
-    bottom: 20vh;
-    right: 0;
-}
 
 
 
