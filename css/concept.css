@@ -116,6 +116,7 @@ td {
 }
 .outer {
     width:30%;
+
 }
 .inner {
     width: 40%;
@@ -125,3 +126,47 @@ td {
     background-size: contain;
 }
 
+#stepOne {
+    background-image: url("../Assets/brain-loading-stock-vector-loading-brain-icon-progress-loading-bar-of-wisdom-brain-boost-symbol-knowledge-is-power-concept-1990470602.jpeg");
+    background-position: center -10vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 35vh;
+}
+
+.brainy {
+    width: 25%;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+
+    position: relative;
+    display: inline-block;
+}
+
+#oney {
+    left: 10vw;
+}
+
+#twoy {
+    left: 20vw;
+}
+
+#threey {
+    top: 15vh;
+    left: 15vw;
+}
+
+#foury {
+    top: 15vh;
+    left: 35vw;
+}
+
+#drafty {
+    width:100%;
+    height:30vh;
+    background-image: url("../Assets/write-pen-stock-vector-graphic-pencil-with-curly-lines-symbolizes-creativity-vector-logo-illustration-1494030656.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
