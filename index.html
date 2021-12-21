@@ -1,437 +1,576 @@
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Crossland Technologies</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<!--    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>-->
+<!-- CSS -->
+<link rel="stylesheet" href="/css/styles.css" type="text/css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" type="text/css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" type="text/css">
 
-<!--    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>-->
-<!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>-->
-<!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.7/holder.min.js"></script>-->
+<!-- JS -->
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<script defer src="js/global.js"></script>
 
-    <!--<script src="../../assets/js/vendor/holder.min.js"></script>-->
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="Assets/portrait_logo.png">
-
-    <title>Home</title>
-
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/album/">
-
-    <!-- Bootstrap core CSS -->
-<!--    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">-->
-
-    <!-- Custom styles for this template -->
-    <link href="css/generic.css" rel="stylesheet">
-    <link href="css/home.css" rel="stylesheet">
 </head>
-
-<!--TODO - change the nav menu to a right hand side thing, rather than a top down thing-->
-<!--TODO - why does the logo in the header not show through the git hub pages?-->
 
 <body>
 
-<header>
-    <div class="collapse bg-dark" id="navbarHeader">
-        <div class="container" id="navbarcont">
-            <div class="row">
-                <div class="col-sm-8 col-md-7 py-4" id="about-header">
-                </div>
-                <div class="col-sm-4 offset-md-1 py-4">
-                    <h4 class="text-white">Contact</h4>
-                    <ul class="list-unstyled">
-                        <li><a href="#" class="text-white">Follow on Twitter</a></li>
-                        <li><a href="#" class="text-white">Like on Facebook</a></li>
-                        <li><a href="#" class="text-white">Email Us</a></li>
-                    </ul>
+	<div class="container__outer">
 
-                    <h4 class="text-white">Products & Services</h4>
-                    <ul class="list-unstyled">
-                        <li><a href="about.html" class="text-white">About Us</a></li>
-                        <li><a href="concept.html" class="text-white">Concept</a></li>
-                        <li><a href="artwork.html#" class="text-white">Artwork</a></li>
-                        <li><a href="design.html" class="text-white">Design & Consultancy</a></li>
-                        <li><a href="software.html" class="text-white">Software</a></li>
-                        <li><a href="hardware.html" class="text-white">Hardware</a></li>
-                        <li><a href="prototyping.html" class="text-white">Prototyping</a></li>
-                        <li><a href="fieldSupport.html" class="text-white">Field Support</a></li>
-                    </ul>
+		<!-- HEADER -->
+		<div id="header">
 
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="navbar navbar-dark bg-dark box-shadow">
-        <div class="container d-flex justify-content-between">
-            <a href="home.html" class="navbar-brand d-flex align-items-center">
-<!--                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>-->
-                <img src="Assets/portrait_logo.png" alt="Crossland Technologies" class="nav-icon" >
-                <strong>Crossland Technologies</strong>
-            </a>
-            <a href="newIdeas.html" class="navbar-brand d-flex align-items-center">
-                New Ideas
-            </a>
-            <a href="existing.html" class="navbar-brand d-flex align-items-center">
-                Existing
-            </a>
-            <a href="pricing.html" class="navbar-brand d-flex align-items-center">
-                Pricing
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </div>
-    </div>
-</header>
+			<div class="logo">
+				<img src="/images/header/logo.png" alt="Crossland Technologies logo" />
+			</div>
 
-<main role="main">
+			<ul class="nav">
 
-<!--    <section class="jumbotron text-center">-->
-<!--        <div class="container">-->
-<!--            <h1 class="jumbotron-heading">Crossland Technologies</h1>-->
-<!--            <p class="lead text-muted">-->
-<!--                <br><br>-->
-<!--                A one stop shop for everything automated.-->
-<!--                <br><br>-->
-<!--                Inventors, Production Managers, Asset Owners - we can help you.-->
-<!--                <br><br>-->
-<!--            </p>-->
+				<li>
+					<a href="#">
+						New Ideas
+					</a>
+				</li>
 
+				<li>
+					<a href="#">
+						Existing
+					</a>
+				</li>
 
+				<li>
+					<a href="#">
+						Pricing
+					</a>
+				</li>
 
+			</ul>
 
-<!--&lt;!&ndash;            If you have a machine, process or concept that works automatically then you need an automation system.&ndash;&gt;-->
-<!--&lt;!&ndash;            <br>&ndash;&gt;-->
-<!--&lt;!&ndash;            All machines, processes, concepts and customers are different; to maximise the benefits of automation,&ndash;&gt;-->
-<!--&lt;!&ndash;            your automated system must be tailored to your requirements.&ndash;&gt;-->
-<!--&lt;!&ndash;            <br>&ndash;&gt;-->
-<!--&lt;!&ndash;            You know your process, we know automation; so no matter how big or small, how simple or&ndash;&gt;-->
-<!--&lt;!&ndash;            complex - let's do it!&ndash;&gt;-->
+			<div class="ctas">
 
-<!--&lt;!&ndash;            Automation is an integral part of the modern world and we all rely on it in one form or another - &ndash;&gt;-->
-<!--&lt;!&ndash;            whether its; making your coffee, washing your dishes or flying your drone on Mars.&ndash;&gt;-->
+				<a href="#" class="block_cta white">
+					Existing Installations
+				</a>
 
-<!--&lt;!&ndash;            As the variety of automated systems continues to increase, you need the system that's right for you.&ndash;&gt;-->
-<!--&lt;!&ndash;            Automation continues to grow and&ndash;&gt;-->
+				<a href="#" class="block_cta black">
+					New Idea / Invention
+				</a>
 
-<!--&lt;!&ndash;            If you have a machine, process or concept that would benefit from automation, we're here to help.&ndash;&gt;-->
-<!--&lt;!&ndash;            Whether its just an idea, a prospective project or an existing installation&ndash;&gt;-->
-<!--&lt;!&ndash;            we're here to help.&ndash;&gt;-->
+			</div>
 
-<!--&lt;!&ndash;            From embedded systems to industrial plants, conceptual designs to optimisations&ndash;&gt;-->
-<!--&lt;!&ndash;            or software to hardware;&ndash;&gt;-->
-<!--&lt;!&ndash;            we've got you covered.&ndash;&gt;-->
+			<div class="burger_cta"></div>
 
-<!--            <p>-->
-<!--                <a href="#" class="btn btn-primary my-2">Get In Touch</a>-->
-<!--                <a href="#" class="btn btn-secondary my-2">Find Out More</a>-->
-<!--            </p>-->
-<!--        </div>-->
-<!--    </section>-->
+		</div>
+		<!-- END OF HEADER -->
 
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleSlidesOnly" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleSlidesOnly" data-slide-to="1"></li>
-            <li data-target="#carouselExampleSlidesOnly" data-slide-to="2"></li>
-            <li data-target="#carouselExampleSlidesOnly" data-slide-to="3"></li>
-            <li data-target="#carouselExampleSlidesOnly" data-slide-to="4"></li>
-        </ol>
-        <div class="carousel-inner">
+		<!-- MOBILE NAV -->
+		<div id="mobile_nav">
 
+			<ul class="nav">
 
-            <!--            Slide 0 - Crossland Technologies-->
-            <div class="carousel-item active" id="slide-0">
-                <h1 class="jumbotron-heading">Crossland Technologies</h1>
-                <p class="lead text-muted">
-                    <br><br>
-                    A one stop shop for everything automated.
-                    <br><br>
-                    Inventors, Production Managers, Asset Owners - we can help you.
-                    <br><br>
-                </p>
-                <p>
-                    <a href="newIdeas.html" class="btn btn-primary my-2">New Idea/Invention</a>
-                    <a href="existing.html" class="btn btn-secondary my-2">Existing Installations</a>
-                </p>
+				<li>
+					<a href="#">
+						New Ideas
+					</a>
+				</li>
 
-            </div>
+				<li>
+					<a href="#">
+						Existing
+					</a>
+				</li>
 
-<!--            Slide 1 - It Ain't All Robots-->
-            <div class="carousel-item" id="slide-1">
-                <h1>It Ain't All Robots</h1>
-                <div>
+				<li>
+					<a href="#">
+						Pricing
+					</a>
+				</li>
 
-                </div>
+			</ul>
 
-                    <p>The first thing most people imagine when they hear 'automation' is robots, or more specifically robotic arms;
-                        typically installed on a factory floor, undertaking mass scale fabrication.</p>
-                    <p>In reality, robots (including robotic arms) only account for a very small proportion of automated systems.</p>
-                    <p>Automation is simply a means by which a task is performed with little to no human input.</p>
-                    <p>Ultimately, any task can be automated. However, some tasks are more suited than others and the benefits
-                        of automating a task should be weighed against the solution required.</p>
-                    <p>Automation systems vary significantly in scale and complexity;</p>
-                    <ul>
-                        <li>from entirely software (e.g. image processing) to entirely hardware (e.g. hardwired circuits)</li>
-                        <li>from small embedded systems to large Plant Control Systems</li>
-                        <li>from a single task step to complete continuous autonomous operation.</li>
-                    </ul>
-                    <p>So whether its robotic arms or something else; we're here to help.</p>
+			<div class="ctas">
 
+				<a href="#" class="block_cta light_grey">
+					Existing Installations
+				</a>
 
-<!--                <img class="d-block w-100" src="Assets/3D_Conveyor.png" alt="First slide">-->
-            </div>
+				<a href="#" class="block_cta black">
+					New Idea / Invention
+				</a>
 
-<!--            Slide 2 - tarry Background (Will be like cover)-->
-            <div class="carousel-item" id="slide-2">
-<!--                <img class="d-block w-100" src="Assets/StarryBackground.png" alt="Second slide">-->
-            </div>
+			</div>
 
-<!--            Slide 3 - Potential Background/Slide-->
-            <div class="carousel-item" id="slide-3">
-<!--                <img class="d-block w-100" src="Assets/3D_Conveyor.png" alt="Third slide">-->
-                <div id="idea">
-                    <h2>The Idea</h2>
-                    <p>It all starts with an idea or a concept that you or your organisation have developed.</p>
-                    <p>Maybe it's something completely new and you don't know where to start.</p>
-                    <p>Or maybe it's something you've done before and you know exactly what you need.</p>
-                    <p>Whether you are a budding inventor with a game changing idea, a project manager with a defined deliverable or
-                        an asset owner in need of optimisation; we can help.</p>
-                    <p>Whatever it is, if it needs automating, come and talk to us.</p>
-                </div>
-            </div>
+		</div>
+		<!-- END OF MOBILE NAV -->
 
-<!--            Slide 4 - What We Offer-->
-            <div class="carousel-item" id="slide-4">
-                <div class="left desc-text">
-                    <h1>What We Offer</h1>
-                    <p>We provide a variety of technical services that enable you to get from that initial idea, that light bulb moment,
-                        all the way through to a fully functioning system - "Bulb to Built".</p>
-                    <p>Each of our services are intended to maximise the efficiency and accuracy of which we are
-                        able to put your brain into one or more machines; figuratively speaking of course.</p>
-                    <p>You are the expert in your idea and we know that. Automated systems only deliver their
-                        full potential when your knowledge and experience is captured and implemented.</p>
-                    <p>This is where we come in. We have years of experience in working with clients to capture, distill and
-                        implement their requirements, knowledge and experience into automated systems.</p>
+		<!-- HERO -->
+		<div id="hero" class="container__inner">
 
-                </div>
-            </div>
-        </div>
+			<div class="text">
 
-        <a class="carousel-control-prev" href="#carouselExampleSlidesOnly" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleSlidesOnly" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
+				<h1 class="heading">
+					Crossland<br>
+					Technologies
+				</h1>
 
-    </div>
+				<div class="intro">
+					<p class="large">
+						A one stop shop for everything automated.
+						<span class="line_break">Inventors, Production Managers, Asset Owners.</span>
+						<strong>We can help you.</strong>
+					</p>
+				</div>
 
+				<a href="#what_we_offer" class="more_cta scroll_to">
+					Find out more<i class="fas fa-long-arrow-alt-down"></i>
+				</a>
 
+			</div>
 
-<!--    <div class="container content" id="allrobots">-->
+			<div class="robot">
+				<img src="/images/robot.png" />
+			</div>
 
-<!--&lt;!&ndash;        <div class="left desc-img" id="roboticarm"></div>&ndash;&gt;-->
-<!--        <div>-->
-<!--            <h1>It Ain't All Robots</h1>-->
-<!--            <p>The first thing most people imagine when they hear 'automation' is robots, or more specifically robotic arms;-->
-<!--                typically installed on a factory floor, undertaking mass scale fabrication.</p>-->
-<!--            <p>In reality, robots (including robotic arms) only account for a very small proportion of automated systems.</p>-->
-<!--            <p>Automation is simply a means by which a task is performed with little to no human input.</p>-->
-<!--            <p>Ultimately, any task can be automated. However, some tasks are more suited than others and the benefits-->
-<!--                of automating a task should be weighed against the solution required.</p>-->
-<!--            <p>Automation systems vary significantly in scale and complexity;</p>-->
-<!--            <ul>-->
-<!--                <li>from entirely software (e.g. image processing) to entirely hardware (e.g. hardwired circuits)</li>-->
-<!--                <li>from small embedded systems to large Plant Control Systems</li>-->
-<!--                <li>from a single task step to complete continuous autonomous operation.</li>-->
-<!--            </ul>-->
-<!--            <p>So whether its robotic arms or something else; we're here to help.</p>-->
+		</div>
+		<!-- END OF HERO -->
 
-<!--        </div>-->
+	</div>
 
+	<!-- MAIN -->
+	<div id="main" class="container__inner">
 
-<!--    </div>-->
+		<!-- WHAT WE OFFER -->
+		<div id="what_we_offer">
 
-<!--    <div class="container content" id="Offer">-->
-<!--        <div class="left desc-text">-->
-<!--            <h1>What We Offer</h1>-->
-<!--            <p>We provide a variety of technical services that enable you to get from that initial idea, that light bulb moment,-->
-<!--            all the way through to a fully functioning system - "Bulb to Built".</p>-->
-<!--            <p>Each of our services are intended to maximise the efficiency and accuracy of which we are-->
-<!--            able to put your brain into one or more machines; figuratively speaking of course.</p>-->
-<!--            <p>You are the expert in your idea and we know that. Automated systems only deliver their-->
-<!--                full potential when your knowledge and experience is captured and implemented.</p>-->
-<!--            <p>This is where we come in. We have years of experience in working with clients to capture, distill and-->
-<!--            implement their requirements, knowledge and experience into automated systems.</p>-->
+			<div class="heading">
+				What We Offer
+			</div>
 
-<!--        </div>-->
-<!--        <div class="right desc-img" id="chipbrain"></div>-->
-<!--    </div>-->
+			<div class="intro">
 
+				<p class="large">
+					A start to ﬁnish, concept to commissioned, automation consultancy.
+				</p>
 
-    <div class="album py-5 bg-light">
-        <div class="container">
+			</div>
 
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Concept" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">Ready to get real? Make that first step and develop your idea into a tangible concept with us today.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <a href="concept.html" class="btn btn-primary my-2">Find Out More</a>
-                                </div>
-                                <small class="text-muted">9 mins</small>
-                            </div>
-                            £1000
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Artwork" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">Pictures say a thousand words; 3D images and animations say even more.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <a href="2DArt.html" class="btn btn-primary my-2">Find Out More</a>
-                                </div>
-                                <small class="text-muted">9 mins</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Design & Consultancy" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">If pictures say a thousand words then 3D images must say at least three thousand words and animations even more! </p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <a href="artwork.html" class="btn btn-primary my-2">Find Out More</a>
-                                </div>
-                                <small class="text-muted">9 mins</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+			<div class="slider" id="what_we_offer_slider">
 
-                <div class="col-md-4">
-                    <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Software" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <a href="design.html" class="btn btn-primary my-2">Find Out More</a>
-                                </div>
-                                <small class="text-muted">9 mins</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Hardware" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <a href="software.html" class="btn btn-primary my-2">Find Out More</a>
-                                </div>
-                                <small class="text-muted">9 mins</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Prototyping" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <a href="hardware.html" class="btn btn-primary my-2">Find Out More</a>
-                                </div>
-                                <small class="text-muted">9 mins</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+				<div class="card">
+					
+					<div class="image">
+						<img src="/images/Crossland_Design_Icon_V3.png" />
+					</div>
 
-                <div class="col-md-4">
-                    <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Field Support" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <a href="prototyping.html" class="btn btn-primary my-2">Find Out More</a>
-                                </div>
-                                <small class="text-muted">9 mins</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Default" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <a href="fieldSupport.html" class="btn btn-primary my-2">Find Out More</a>
-                                </div>
-                                <small class="text-muted">9 mins</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Contact Us" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <a href="#" class="btn btn-primary my-2">Find Out More</a>
-                                </div>
-                                <small class="text-muted">9 mins</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+					<div class="sub_heading">
+						Design
+					</div>
 
-</main>
+					<p>
+						Full design life cycle capabilities; from establishing user requirements to defining components.
+					</p>
 
-<footer class="text-muted">
-    <div class="container">
-        <p class="float-right">
-            <a href="#">Back to top</a>
-        </p>
-        <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-        <p>New to Bootstrap? <a href="..">Visit the homepage</a> or read our <a href="../../getting-started/">getting started guide</a>.</p>
-    </div>
-</footer>
+					<div class="pager">
+						<div class="bullet active"></div>
+						<div class="bullet"></div>
+						<div class="bullet"></div>
+					</div>
 
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script>window.jQuery || document.write('<script src="https://getbootstrap.com/docs/4.0/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-<script src="https://getbootstrap.com/docs/4.0/assets/js/vendor/popper.min.js"></script>
-<script src="https://getbootstrap.com/docs/4.0/dist/js/bootstrap.min.js"></script>
-<script src="https://getbootstrap.com/docs/4.0/assets/js/vendor/holder.min.js"></script>
+				</div>
+
+				<div class="card">
+					
+					<div class="image">
+						<img src="/images/Crossland_Develop_Icon_V3.png" />
+					</div>
+
+					<div class="sub_heading">
+						Develop
+					</div>
+
+					<p>
+						Build, construct and refine prototypes and products.
+					</p>
+
+					<div class="pager">
+						<div class="bullet"></div>
+						<div class="bullet active"></div>
+						<div class="bullet"></div>
+					</div>
+
+				</div>
+
+				<div class="card">
+					
+					<div class="image">
+						<img src="/images/Crossland_Commission_Icon_V2.png" />
+					</div>
+
+					<div class="sub_heading">
+						Commission
+					</div>
+
+					<p>
+						Hands on start up and on site support.
+					</p>
+
+					<a href="#" class="block_cta">
+						Get started
+					</a>
+
+				</div>
+
+			</div>
+
+			<div class="footer">
+
+				<p>
+					We provide a variety of technical services that enable you to get from that initial idea, that light bulb moment, all the way through to a fully functioning system - <strong>&ldquo;Bulb to Built&rdquo;</strong>.
+				</p>
+
+			</div>
+
+		</div>
+		<!-- END OF WHAT WE OFFER -->
+
+		<!-- IT AIN'T ALL ABOUT ROBOTS -->
+		<div id="robots">
+
+			<div class="heading">
+				It Ain't All Robots
+			</div>
+
+			<div class="intro">
+
+				<p class="large">
+					We automate more than just robots.
+				</p>
+
+			</div>
+
+			<div class="split_columns">
+
+				<div class="col__1_3">
+
+					<div class="slider" id="robots_slider">
+
+						<div class="card">
+					
+							<div class="image">
+								<img src="/images/robot.png" />
+							</div>
+
+							<div class="sub_heading">
+								Image Processing
+							</div>
+
+							<p>
+								Analysing images automatically to detect items, objects or other features.
+							</p>
+
+							<div class="pager">
+								<a href="#" data-slide="1" class="bullet active"></a>
+								<a href="#" data-slide="2" class="bullet"></a>
+								<a href="#" data-slide="3" class="bullet"></a>
+								<a href="#" data-slide="4" class="bullet"></a>
+							</div>
+
+						</div>
+
+						<div class="card">
+					
+							<div class="image">
+								<img src="/images/robot.png" />
+							</div>
+
+							<div class="sub_heading">
+								PCB Design
+							</div>
+
+							<p>
+								Designing and producing custom printed circuit boards. items, objects or other features.
+							</p>
+
+							<div class="pager">
+								<a href="#" data-slide="1" class="bullet"></a>
+								<a href="#" data-slide="2" class="bullet active"></a>
+								<a href="#" data-slide="3" class="bullet"></a>
+								<a href="#" data-slide="4" class="bullet"></a>
+							</div>
+
+						</div>
+
+						<div class="card">
+					
+							<div class="image">
+								<img src="/images/robot.png" />
+							</div>
+
+							<div class="sub_heading">
+								Embedded Systems
+							</div>
+
+							<p>
+								Standalone control systems; typically mobile and packaged within the product.
+							</p>
+
+							<div class="pager">
+								<a href="#" data-slide="1" class="bullet"></a>
+								<a href="#" data-slide="2" class="bullet"></a>
+								<a href="#" data-slide="3" class="bullet active"></a>
+								<a href="#" data-slide="4" class="bullet"></a>
+							</div>
+
+						</div>
+
+						<div class="card">
+					
+							<div class="image">
+								<img src="/images/robot.png" />
+							</div>
+
+							<div class="sub_heading">
+								Plant Control Systems
+							</div>
+
+							<p>
+								Interconnected systems, typically static, that combine to control large installations.
+							</p>
+
+							<div class="pager">
+								<a href="#" data-slide="1" class="bullet"></a>
+								<a href="#" data-slide="2" class="bullet"></a>
+								<a href="#" data-slide="3" class="bullet"></a>
+								<a href="#" data-slide="4" class="bullet active"></a>
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="col__2_3">
+
+					<p>
+						The first thing most people imagine when they hear 'automation' is robots, or more specifically robotic arms; typically installed on a factory floor, undertaking mass scale fabrication.
+					</p>
+
+					<p>
+						In reality, robots (including robotic arms) only account for a very small proportion of automated systems.
+					</p>
+
+					<p>
+						Automation is simply a means by which a task is performed with little to no human input.
+					</p>
+
+					<p>
+						So whether it's robotic arms or something else; we're here to help.
+					</p>
+
+				</div>
+
+			</div>
+
+		</div>
+		<!-- END OF IT AIN'T ALL ABOUT ROBOTS -->
+
+	</div>
+	<!-- END OF MAIN -->
+
+	<!-- SERVICES -->
+	<div id="services" class="container__outer">
+		<div class="container__inner">
+
+			<div class="heading">
+				Services
+			</div>
+
+			<div class="service_ctas">
+
+				<div class="service">
+
+					<div class="sub_heading">
+						Concept
+					</div>
+
+					<p>
+						Ready to get real? Make that first step and develop your idea into a tangible concept with us today.
+					</p>
+
+					<a href="#" class="block_cta">
+						Find out more
+					</a>
+
+				</div>
+
+				<div class="service">
+
+					<div class="sub_heading">
+						Artwork
+					</div>
+
+					<p>
+						Pictures say a thousand words; 3D images and animations say even more.
+					</p>
+
+					<a href="#" class="block_cta">
+						Find out more
+					</a>
+
+				</div>
+
+				<div class="service">
+
+					<div class="sub_heading">
+						Design
+					</div>
+
+					<p>
+						If pictures say a thousand words then 3D images must say at least three thousand words and animations even more!
+					</p>
+
+					<a href="#" class="block_cta">
+						Find out more
+					</a>
+
+				</div>
+
+				<div class="service">
+
+					<div class="sub_heading">
+						Software
+					</div>
+
+					<p>
+						This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+					</p>
+
+					<a href="#" class="block_cta">
+						Find out more
+					</a>
+
+				</div>
+
+				<div class="service">
+
+					<div class="sub_heading">
+						Hardware
+					</div>
+
+					<p>
+						This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+					</p>
+
+					<a href="#" class="block_cta">
+						Find out more
+					</a>
+
+				</div>
+
+				<div class="service">
+
+					<div class="sub_heading">
+						Prototyping
+					</div>
+
+					<p>
+						This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+					</p>
+
+					<a href="#" class="block_cta">
+						Find out more
+					</a>
+
+				</div>
+
+				<div class="service">
+
+					<div class="sub_heading">
+						Field Support
+					</div>
+
+					<p>
+						This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+					</p>
+
+					<a href="#" class="block_cta">
+						Find out more
+					</a>
+
+				</div>
+
+				<div class="service">
+
+					<div class="sub_heading">
+						OT Support
+					</div>
+
+					<p>
+						Just like IT support, we can assist you with all of your Operation Technology needs.
+					</p>
+
+					<a href="#" class="block_cta">
+						Find out more
+					</a>
+
+				</div>
+
+				<div class="service">
+
+					<div class="sub_heading">
+						Contact Us
+					</div>
+
+					<p>
+						What ever your needs; get in touch to find out how we can help you.
+					</p>
+
+					<a href="#" class="block_cta">
+						Find out more
+					</a>
+
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+	<!-- END OF SERVICES -->
+
+	<!-- FOOTER -->
+	<div id="footer_wrapper" class="container__outer">
+		<div id="footer" class="container__inner">
+
+			<div class="copyright">
+				<p>
+					&copy; Copyright Crossland Technologies
+				</p>
+			</div>
+
+			<div class="social">
+
+				<a href="#" class="icon">
+					<i class="fab fa-facebook-f"></i>
+				</a>
+
+				<a href="#" class="icon">
+					<i class="fab fa-instagram"></i>
+				</a>
+
+				<a href="#" class="icon">
+					<i class="fab fa-twitter"></i>
+				</a>
+
+			</div>
+
+		</div>
+	</div>
+	<!-- END OF FOOTER -->
+
 </body>
 </html>
