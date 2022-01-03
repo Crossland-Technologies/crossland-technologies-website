@@ -1,0 +1,13 @@
+version: '2.1'
+services:
+  web:
+    image: nginx
+    volumes:
+  #    - ./templates:/etc/nginx/templates
+      - ./:/usr/share/nginx/html
+
+    ports:
+      - "8080:80"
+    environment:
+      - NGINX_HOST=local.crosslandtechnologies.co.uk
+      - NGINX_PORT=80
