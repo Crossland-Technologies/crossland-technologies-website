@@ -532,7 +532,7 @@ img {
       filter: alpha(opacity=5);
       -moz-opacity: 0.05;
       -khtml-opacity: 0.05;
-      opacity: 0.05; }
+      opacity: 0.3; }
 
 
 
@@ -826,8 +826,9 @@ img {
 
 
 
-.material-icons {
-  color: #424242;
+.material-icons-outlined {
+  /*color: #424242;*/
+  color: #002e4f;
   font-size: 10em !important;
 }
 
