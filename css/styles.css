@@ -543,18 +543,18 @@ img {
   #main {
     padding: 50px 0; } }
 
-#services #products {
+#services {
   background: url("../images/misc/numbers.png") rgba(212, 232, 249, 0.6);
   padding: 160px 0; }
-  #services #products .container__inner .heading {
+  #services .container__inner .heading {
     text-align: center;
     margin-bottom: 80px; }
-  #services #products .container__inner .service_ctas {
+  #services .container__inner .service_ctas {
     display: flex;
     flex-wrap: wrap;
     width: calc(100% + 60px);
     margin: 0 -30px; }
-    #services #products .container__inner .service_ctas .service {
+    #services .container__inner .service_ctas .service {
       display: flex;
       flex-direction: column;
       width: calc(33.3333333333% - 60px);
@@ -566,56 +566,134 @@ img {
       box-shadow: rgba(30, 136, 229, 0.2) 0px 4px 12px;
       padding: 40px;
       margin: 0 30px; }
-      #services #products .container__inner .service_ctas .service:nth-child(n+4) {
+      #services .container__inner .service_ctas .service:nth-child(n+4) {
         margin-top: 80px; }
-      #services #products .container__inner .service_ctas .service p {
+      #services .container__inner .service_ctas .service p {
         font-size: 1em;
         margin-bottom: 40px; }
-      #services #products .container__inner .service_ctas .service .block_cta {
+      #services .container__inner .service_ctas .service .block_cta {
         margin: auto auto 0 0; }
 
 /* -------------------------------------------------- */
 @media screen and (max-width: 1365px) {
-  #services #products {
+  #services {
     padding: 120px 0; }
-    #services #products .container__inner .service_ctas {
+    #services .container__inner .service_ctas {
       width: calc(100% + 40px);
       margin: 0 -20px; }
-      #services #products .container__inner .service_ctas .service {
+      #services .container__inner .service_ctas .service {
         width: calc(33.3333333333% - 40px);
         margin: 0 20px; } }
 
 @media screen and (max-width: 1023px) {
-  #services #products {
+  #services {
     padding: 100px 0; }
-    #services #products .container__inner .heading {
+    #services .container__inner .heading {
       margin-bottom: 60px; }
-    #services #products .container__inner .service_ctas .service {
+    #services .container__inner .service_ctas .service {
       width: calc(50% - 40px);
       margin-top: 0; }
-      #services #products .container__inner .service_ctas .service:nth-child(n+3) {
+      #services .container__inner .service_ctas .service:nth-child(n+3) {
         margin-top: 60px; } }
 
 @media screen and (max-width: 767px) {
-  #services #products {
+  #services {
     padding: 50px 0; }
-    #services #products .container__inner .heading {
+    #services .container__inner .heading {
       text-align: center;
       margin-bottom: 40px; }
-    #services #products .container__inner .service_ctas {
+    #services .container__inner .service_ctas {
       width: 100%;
       margin: 0; }
-      #services #products .container__inner .service_ctas .service {
+      #services .container__inner .service_ctas .service {
         width: 100%;
         margin: 0; }
-        #services #products .container__inner .service_ctas .service:nth-child(n+2) {
+        #services .container__inner .service_ctas .service:nth-child(n+2) {
           margin-top: 40px; }
-        #services #products .container__inner .service_ctas .service .sub_heading, #services #products .container__inner .service_ctas .service p {
+        #services .container__inner .service_ctas .service .sub_heading, #services .container__inner .service_ctas .service p {
           text-align: center; }
-        #services #products .container__inner .service_ctas .service p {
+        #services .container__inner .service_ctas .service p {
           margin-bottom: 30px; }
-        #services #products .container__inner .service_ctas .service .block_cta {
+        #services .container__inner .service_ctas .service .block_cta {
           margin-left: auto; } }
+
+
+#products {
+  background: url("../images/misc/numbers.png") rgba(212, 232, 249, 0.6);
+  padding: 160px 0; }
+#products .container__inner .heading {
+  text-align: center;
+  margin-bottom: 80px; }
+#products .container__inner .service_ctas {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% + 60px);
+  margin: 0 -30px; }
+#products .container__inner .service_ctas .service {
+  display: flex;
+  flex-direction: column;
+  width: calc(33.3333333333% - 60px);
+  background: #FFFFFF;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  -webkit-box-shadow: rgba(30, 136, 229, 0.2) 0px 4px 12px;
+  box-shadow: rgba(30, 136, 229, 0.2) 0px 4px 12px;
+  padding: 40px;
+  margin: 0 30px; }
+#products .container__inner .service_ctas .service:nth-child(n+4) {
+  margin-top: 80px; }
+#products .container__inner .service_ctas .service p {
+  font-size: 1em;
+  margin-bottom: 40px; }
+#products .container__inner .service_ctas .service .block_cta {
+  margin: auto auto 0 0; }
+
+/* -------------------------------------------------- */
+@media screen and (max-width: 1365px) {
+  #products {
+    padding: 120px 0; }
+  #products .container__inner .service_ctas {
+    width: calc(100% + 40px);
+    margin: 0 -20px; }
+  #products .container__inner .service_ctas .service {
+    width: calc(33.3333333333% - 40px);
+    margin: 0 20px; } }
+
+@media screen and (max-width: 1023px) {
+  #products {
+    padding: 100px 0; }
+  #products .container__inner .heading {
+    margin-bottom: 60px; }
+  #products .container__inner .service_ctas .service {
+    width: calc(50% - 40px);
+    margin-top: 0; }
+  #products .container__inner .service_ctas .service:nth-child(n+3) {
+    margin-top: 60px; } }
+
+@media screen and (max-width: 767px) {
+  #products {
+    padding: 50px 0; }
+  #products .container__inner .heading {
+    text-align: center;
+    margin-bottom: 40px; }
+  #products .container__inner .service_ctas {
+    width: 100%;
+    margin: 0; }
+  #products .container__inner .service_ctas .service {
+    width: 100%;
+    margin: 0; }
+  #products .container__inner .service_ctas .service:nth-child(n+2) {
+    margin-top: 40px; }
+  #products .container__inner .service_ctas .service .sub_heading, #products .container__inner .service_ctas .service p {
+    text-align: center; }
+  #products .container__inner .service_ctas .service p {
+    margin-bottom: 30px; }
+  #products .container__inner .service_ctas .service .block_cta {
+    margin-left: auto; } }
+
+
+
 
 #footer_wrapper {
   background: #111111;
