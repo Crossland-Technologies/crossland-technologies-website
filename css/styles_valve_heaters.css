@@ -687,51 +687,51 @@ img {
       #footer .copyright p {
         text-align: center; } }
 
-#what_we_offer .heading {
+#VH_variations .heading {
   text-align: center; }
 
-#what_we_offer .intro {
+#VH_variations .intro {
   margin-bottom: 40px; }
-  #what_we_offer .intro p {
+  #VH_variations .intro p {
     text-align: center; }
 
-#what_we_offer .slider {
+#VH_variations .slider {
   margin-bottom: 40px; }
-  #what_we_offer .slider .slick-list {
+  #VH_variations .slider .slick-list {
     width: calc(100% + 60px);
     margin: 0 -30px; }
-    #what_we_offer .slider .slick-list .slick-track {
+    #VH_variations .slider .slick-list .slick-track {
       display: flex !important;
       margin: 40px 0; }
-      #what_we_offer .slider .slick-list .slick-track .slick-slide {
+      #VH_variations .slider .slick-list .slick-track .slick-slide {
         height: inherit !important;
         margin: 0 30px; }
-        #what_we_offer .slider .slick-list .slick-track .slick-slide > div {
+        #VH_variations .slider .slick-list .slick-track .slick-slide > div {
           height: 100%; }
 
-#what_we_offer .footer {
+#VH_variations .footer {
   width: 100%;
   max-width: 1020px;
   margin: 0 auto; }
-  #what_we_offer .footer p {
+  #VH_variations .footer p {
     text-align: center; }
 
 /* -------------------------------------------------- */
 @media screen and (max-width: 1365px) {
-  #what_we_offer .slider .slick-list {
+  #VH_variations .slider .slick-list {
     width: calc(100% + 40px);
     margin: 0 -20px; }
-    #what_we_offer .slider .slick-list .slick-track .slick-slide {
+    #VH_variations .slider .slick-list .slick-track .slick-slide {
       margin: 0 20px; } }
 
 @media screen and (max-width: 1023px) {
-  #what_we_offer .intro,
-  #what_we_offer .slider {
+  #VH_variations .intro,
+  #VH_variations .slider {
     margin-bottom: 20px; } }
 
 @media screen and (max-width: 767px) {
-  #what_we_offer .intro,
-  #what_we_offer .slider {
+  #VH_variations .intro,
+  #VH_variations .slider {
     margin-bottom: 0; } }
 
 #robots {
