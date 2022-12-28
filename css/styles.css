@@ -543,7 +543,7 @@ img {
   #main {
     padding: 50px 0; } }
 
-#services {
+#services #products {
   background: url("../images/misc/numbers.png") rgba(212, 232, 249, 0.6);
   padding: 160px 0; }
   #services .container__inner .heading {
