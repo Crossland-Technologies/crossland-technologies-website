@@ -738,6 +738,12 @@ img {
   #VH_variations .slider {
     margin-bottom: 0; } }
 
+
+#passiveIcon {
+  max-width: 100%;
+}
+
+
 #robots {
   margin-top: 160px; }
   #robots .heading {
