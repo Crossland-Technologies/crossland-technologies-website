@@ -742,7 +742,12 @@ img {
 #passiveIcon {
   max-width: 100%;
 }
-
+#fixedIcon {
+  max-width: 100%;
+}
+#activeIcon {
+  max-width: 100%;
+}
 
 #robots {
   margin-top: 160px; }
