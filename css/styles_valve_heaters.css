@@ -817,4 +817,9 @@ img {
         width: 100%;
         margin: 0; } }
 
+.material-icons-outlined {
+  /*color: #424242;*/
+  color: #002e4f;
+  font-size: 10em !important;
+}
 
