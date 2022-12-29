@@ -460,6 +460,10 @@ img {
     width: 400px;
     height: 670px; }
 
+#hero .robot img {
+    max-width: 100%;
+}
+
 /* -------------------------------------------------- */
 @media screen and (max-width: 1440px) {
   #hero .robot {
