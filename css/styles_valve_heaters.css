@@ -206,7 +206,7 @@ img {
   .card {
     padding: 30px; }
     .card .image {
-      max-width: 100px;
+      /*max-width: 100px;*/
       margin-bottom: 30px; }
     .card p {
       margin-bottom: 10px; }
