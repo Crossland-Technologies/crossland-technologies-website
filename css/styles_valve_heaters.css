@@ -834,7 +834,8 @@ img {
   font-size: 10em !important;
 }
 
-#dismounted #partMounted #mounted {
-  max-width: 100%;
-}
 
+.coloured-link {
+  color: #1E88E5;
+  text-decoration: underline;
+}
