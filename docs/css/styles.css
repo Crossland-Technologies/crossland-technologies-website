@@ -1,23 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline; }
+
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -693,78 +674,6 @@ img {
     margin-left: auto; } }
 
 
-
-
-#footer_wrapper {
-  background: #111111;
-  margin-top: 160px; }
-
-#footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 120px 0; }
-  #footer .copyright p {
-    font-size: 1em;
-    color: #FFFFFF; }
-  #footer .social {
-    display: flex; }
-    #footer .social .icon {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 36px;
-      height: 36px;
-      background: #FFFFFF;
-      -webkit-border-radius: 50%;
-      -moz-border-radius: 50%;
-      border-radius: 50%;
-      margin-right: 15px;
-      -o-transition: all 0.2s ease;
-      -ms-transition: all 0.2s ease;
-      -moz-transition: all 0.2s ease;
-      -webkit-transition: all 0.2s ease;
-      transition: all 0.2s ease; }
-      #footer .social .icon:last-child {
-        margin-right: 0; }
-      #footer .social .icon i {
-        font-size: 18px;
-        line-height: 18px;
-        color: #111111;
-        -o-transition: all 0.2s ease;
-        -ms-transition: all 0.2s ease;
-        -moz-transition: all 0.2s ease;
-        -webkit-transition: all 0.2s ease;
-        transition: all 0.2s ease; }
-      #footer .social .icon:hover {
-        background: #1E88E5; }
-        #footer .social .icon:hover i {
-          color: #FFFFFF; }
-
-/* -------------------------------------------------- */
-@media screen and (max-width: 1365px) {
-  #footer_wrapper {
-    margin-top: 120px; }
-  #footer {
-    padding: 80px 0; } }
-
-@media screen and (max-width: 1023px) {
-  #footer_wrapper {
-    margin-top: 100px; } }
-
-@media screen and (max-width: 767px) {
-  #footer_wrapper {
-    margin-top: 50px; }
-  #footer {
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 50px 0; }
-    #footer .copyright {
-      width: 100%;
-      margin-bottom: 40px; }
-      #footer .copyright p {
-        text-align: center; } }
-
 #what_we_offer .heading {
   text-align: center; }
 
@@ -818,8 +727,6 @@ img {
     text-align: center; }
   #robots .intro {
     margin-bottom: 40px; }
-    #robots .intro p {
-      text-align: center; }
   #robots .split_columns {
     display: flex;
     align-items: center;

@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/** COMMON STUFF **/
+/** ----------------- SECTIONS ----------------------------------- **/
+div.section div.intro p.large {
+  text-align: center; 
+}
+div.section .heading {
+  text-align: center;
+}
+div.section .intro {
+  margin-bottom: 40px; 
+}
+div.section .intro p {
+  text-align: center; 
+}
+div.section .slider {
+  margin-bottom: 40px; 
+}
+div.section .slider .slick-list {
+  width: calc(100% + 60px);
+  margin: 0 -30px; 
+}
+div.section .slider .slick-list .slick-track {
+  display: flex !important;
+  margin: 40px 0; 
+}
+div.section .slider .slick-list .slick-track .slick-slide {
+  height: inherit !important;
+  margin: 0 30px; 
+}
+div.section .slider .slick-list .slick-track .slick-slide > div {
+  height: 100%; 
+}
+div.section .footer {
+  width: 100%;
+  max-width: 1020px;
+  margin: 0 auto;
+}
+div.section .footer p {
+  text-align: center; 
+}
+@media screen and (max-width: 1365px) {
+  div.section .slider .slick-list {
+    width: calc(100% + 40px);
+    margin: 0 -20px; 
+  }
+  div.section .slider .slick-list .slick-track .slick-slide {
+    margin: 0 20px; 
+  } 
+}
+@media screen and (max-width: 1023px) {
+  div.section .intro,
+  div.section .slider {
+    margin-bottom: 20px; 
+  } 
+}
+@media screen and (max-width: 767px) {
+  div.section .intro,
+  div.section .slider {
+    margin-bottom: 0; 
+  } 
+}
+/** Section backgrounds **/
+.container__outer,.numbers-background {
+  background: url("../images/misc/numbers.png") rgba(212, 232, 249, 0.6) !important;
+  padding: 40px 0; 
+}
+/** ----------------- SECTIONS:END ----------------------------------- **/
+
+/** ----------------- GRID SHIT -------------------------------------- **/
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% + 60px);
+  margin: 0 -30px;
+}
+.grid .grid-item {
+  display: flex;
+  flex-direction: column;
+  width: calc(33.3333333333% - 60px);
+  background: #FFFFFF;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  -webkit-box-shadow: rgba(30, 136, 229, 0.2) 0px 4px 12px;
+  box-shadow: rgba(30, 136, 229, 0.2) 0px 4px 12px;
+  padding: 40px;
+  margin: 0 30px;
+}
+.grid .grid-item:nth-child(n+4) {
+  margin-top: 80px; }
+  .grid .grid-item p {
+  font-size: 1em;
+  margin-bottom: 40px; 
+}
+.grid .grid-item .block_cta {
+  margin: auto auto 0 0; 
+}
+@media screen and (max-width: 1365px) {
+  .grid {
+    width: calc(100% + 40px);
+    margin: 0 -20px; 
+  }
+  .grid .grid-item {
+    width: calc(33.3333333333% - 40px);
+    margin: 0 20px; 
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .grid {
+    width: calc(50% - 40px);
+    margin-top: 0; 
+  }
+  .grid .grid-item:nth-child(n+3) {
+    margin-top: 60px; 
+  } 
+}
+
+@media screen and (max-width: 767px) {
+  .grid {
+    width: 100%;
+    margin: 0; 
+  }
+  .grid .grid-item {
+    width: 100%;
+    margin: 0; 
+  }
+  .grid .grid-item:nth-child(n+2) {
+    margin-top: 40px; 
+  }
+  .grid .grid-item .sub_heading, .grid .grid-item p {
+    text-align: center; 
+  }
+  .grid .grid-item p {
+    margin-bottom: 30px; 
+  }
+  .grid .grid-item .block_cta {
+    margin-left: auto; 
+  } 
+}
+/** ----------------- GRID SHIT:END ---------------------------------- **/
+
+/** ----------------- actual FOOTER START  ---------------------------------- **/
+#footer_wrapper {
+  background: #111111 !important;
+  margin-top: 0; 
+  padding: 0;
+}
+#footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 120px 0; 
+}
+#footer .copyright p {
+  font-size: 1em;
+  color: #FFFFFF; 
+}
+#footer .social {
+  display: flex; 
+}
+#footer .social .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background: #FFFFFF;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  margin-right: 15px;
+  -o-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease; 
+}
+#footer .social .icon:last-child {
+  margin-right: 0; 
+}
+#footer .social .icon i {
+  font-size: 18px;
+  line-height: 18px;
+  color: #111111;
+  -o-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease; 
+}
+#footer .social .icon:hover {
+  background: #1E88E5; 
+}
+#footer .social .icon:hover i {
+  color: #FFFFFF; 
+}
+
+@media screen and (max-width: 1365px) {
+  #footer_wrapper {
+    margin-top: 120px; 
+  }
+  #footer {
+    padding: 80px 0; 
+  } 
+}
+
+@media screen and (max-width: 1023px) {
+  #footer_wrapper {
+    margin-top: 100px; 
+  } 
+}
+
+@media screen and (max-width: 767px) {
+  #footer_wrapper {
+    margin-top: 50px; 
+  }
+  #footer {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 0; 
+  }
+  #footer .copyright {
+    width: 100%;
+    margin-bottom: 40px; 
+  }
+  #footer .copyright p {
+    text-align: center; 
+  } 
+}
+/** ----------------- FOOTER END  ---------------------------------- **/
+
