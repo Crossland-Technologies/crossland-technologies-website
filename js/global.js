@@ -106,7 +106,6 @@ $('#contact_slider .pager .bullet').click(function(e) {
 	$('#robots_slider').slick('slickGoTo', $(this).data('slide') - 1);
 });
 
-
 // Mobile nav
 
 $('.burger_cta').on('click', function(e) {
