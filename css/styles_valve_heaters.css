@@ -834,3 +834,7 @@ img {
   font-size: 10em !important;
 }
 
+#dismounted #partMounted #mounted {
+  max-width: 100%;
+}
+
