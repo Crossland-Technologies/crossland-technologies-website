@@ -66,6 +66,20 @@ $('#robots_slider .pager .bullet').click(function(e) {
 });
 
 
+$('#attachment_slider').slick({
+	speed: 1000,
+	arrows: false,
+	autoplay: true,
+	autoplaySpeed: 5000,
+	// adaptiveHeight: true
+});
+
+$('#attachment_slider .pager .bullet').click(function(e) {
+	e.preventDefault();
+	$('#robots_slider').slick('slickGoTo', $(this).data('slide') - 1);
+});
+
+
 // Mobile nav
 
 $('.burger_cta').on('click', function(e) {
